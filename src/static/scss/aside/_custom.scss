@@ -1,0 +1,12 @@
+.k-aside__brand-tools {
+	.flaticon2-add-1 {
+		@extend .k-opacity-4;
+		
+		cursor: pointer;
+		transform: rotate(45deg);
+	
+		&:hover {
+			@extend .k-opacity-8;
+		}
+	}
+}
